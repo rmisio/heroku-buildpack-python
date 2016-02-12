@@ -12,6 +12,10 @@
 #
 #     $ bin/compile <build-dir> <cache-dir> <env-path>
 
+echo ====AROO===========
+echo $PKG_CONFIG_PATH
+echo ====AROO===========
+
 # Fail fast and fail hard.
 set -eo pipefail
 
